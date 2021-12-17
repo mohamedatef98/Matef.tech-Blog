@@ -2,6 +2,7 @@ import Head from "next/head";
 import { ThemeProvider, CssBaseline } from "@mui/material";
 import "../styles/globals.css";
 import theme from "../theme";
+import Navbar from "../components/Navbar";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -12,6 +13,7 @@ function MyApp({ Component, pageProps }) {
       </Head>
       <ThemeProvider theme={theme}>
         <CssBaseline />
+        <Navbar />
         <Component {...pageProps} />
       </ThemeProvider>
     </>
