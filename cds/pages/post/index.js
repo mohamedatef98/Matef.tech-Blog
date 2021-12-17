@@ -1,3 +1,3 @@
 export default function Posts({}) {
-    return <div>Hello Post</div>
+  return <div>Hello Post</div>;
 }
