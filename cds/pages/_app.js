@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { ThemeProvider, CssBaseline } from "@mui/material";
 import "../styles/globals.css";
-import theme from "./theme";
+import theme from "../theme";
 
 function MyApp({ Component, pageProps }) {
   return (
