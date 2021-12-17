@@ -17,7 +17,7 @@
     "sqlite3": "5.0.2"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Mohamed Atef <eng.mohamedatef98@gmail.com>"
   },
   "strapi": {
     "uuid": "eddc5ca2-c4f8-485c-9f4a-1ee8f5cc43f9"
