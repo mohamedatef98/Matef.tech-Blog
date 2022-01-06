@@ -6,7 +6,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "serve": "yarn build && yarn start -p 80"
+    "serve": "yarn build && yarn start -p 8080"
   },
   "dependencies": {
     "@emotion/react": "^11.7.1",
